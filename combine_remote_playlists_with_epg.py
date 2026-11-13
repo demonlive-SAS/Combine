@@ -13,31 +13,9 @@ from urllib3.util.retry import Retry
 
 # ===== CONFIGURATION =====
 PLAYLISTS = [
-    "https://github.com/demonlive-SAS/Private-m3u-2/raw/refs/heads/main/Playlists/300rip-wo-events.m3u8",
-    "https://github.com/demonlive-SAS/Private-m3u-2/raw/refs/heads/main/Playlists/pxm.m3u", 
-    "https://github.com/demonlive-SAS/Private-m3u-2/raw/refs/heads/main/Playlists/s247.m3u",
-    "https://github.com/demonlive-SAS/Private-m3u-2/raw/refs/heads/main/Playlists/dancetv.m3u8",
-    "https://github.com/demonlive-SAS/Private-m3u-2/raw/refs/heads/main/Playlists/direct.m3u8",
-    "https://github.com/demonlive-SAS/buddy_lg/raw/refs/heads/main/lg_channels_us.m3u",
-    "https://github.com/demonlive-SAS/plex-fast-channels/raw/refs/heads/main/playlists/plex_us.m3u",
-    "https://github.com/demonlive-SAS/plex-fast-channels/raw/refs/heads/main/playlists/plex_gb.m3u",
-    "https://github.com/demonlive-SAS/plex-fast-channels/raw/refs/heads/main/playlists/plex_nz.m3u",
-    "https://github.com/demonlive-SAS/plex-fast-channels/raw/refs/heads/main/playlists/plex_mx.m3u",
-    "https://github.com/demonlive-SAS/plex-fast-channels/raw/refs/heads/main/playlists/plex_es.m3u",
-    "https://github.com/demonlive-SAS/plex-fast-channels/raw/refs/heads/main/playlists/plex_ca.m3u",
-    "https://github.com/demonlive-SAS/plex-fast-channels/raw/refs/heads/main/playlists/plex_au.m3u",
-    "https://github.com/demonlive-SAS/pluto-test/raw/refs/heads/main/pluto_us.m3u",
-    "https://github.com/demonlive-SAS/pluto-test/raw/refs/heads/main/pluto_mx.m3u",
-    "https://github.com/demonlive-SAS/pluto-test/raw/refs/heads/main/pluto_es.m3u",
-    "https://github.com/demonlive-SAS/pluto-test/raw/refs/heads/main/pluto_gb.m3u",
-    "https://github.com/demonlive-SAS/pluto-test/raw/refs/heads/main/pluto_ca.m3u",
-    "https://github.com/demonlive-SAS/RakutenTV-UK/raw/refs/heads/main/playlist.m3u", 
-    "https://github.com/demonlive-SAS/buddy_roku/raw/refs/heads/main/roku.m3u",
-    "https://github.com/demonlive-SAS/samstvplus/raw/refs/heads/main/output/samsung_tvplus.m3u", 
-    "https://github.com/demonlive-SAS/buddy_tcl_playlist/raw/refs/heads/main/tcl.m3u8",
-    "https://github.com/demonlive-SAS/buddy_tubi/raw/refs/heads/main/tubi_playlist.m3u",
-    "https://github.com/demonlive-SAS/buddy_xumo/raw/refs/heads/main/playlists/xumo_playlist.m3u",
-    "https://github.com/demonlive-SAS/fast-bally/raw/refs/heads/main/ballys.m3u", 
+    "https://github.com/demonlive-SAS/Combine/raw/refs/heads/main/300rip-wo-events-sorted.m3u8", 
+    "https://github.com/demonlive-SAS/Combine/raw/refs/heads/main/pxm.m3u", 
+    "https://github.com/demonlive-SAS/Combine/raw/refs/heads/main/liveevents.m3u8", 
 ]
 
 EPG_URL = "https://github.com/demonlive-SAS/epg-light/raw/refs/heads/main/epgs/light-epg.xml.gz"
