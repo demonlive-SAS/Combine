@@ -32,7 +32,7 @@ TIMEOUT = 15
 
 # --- Reorganization options ---
 REORGANIZE = True                 # sort the combined list after merging
-SORT_MODE = "group_then_name"     # "group_then_name" | "name" (flat A-Z by tvg-name)
+SORT_MODE = "name"                # "group_then_name" | "name" (flat A-Z by tvg-name)
 GROUP_PRIORITY = []               # e.g. ["News", "Sports"] -> these groups come first, in this order
 NATURAL_SORT = True               # "ESPN 2" before "ESPN 10"
 FILL_MISSING_TVG_NAME = True      # add tvg-name (from display name) when a channel lacks one
